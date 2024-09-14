@@ -1,0 +1,45 @@
+body {
+    padding: 2rem;
+}
+
+form {
+    display: grid;
+    justify-content: space-around;
+}
+
+label {
+    display: block;
+}
+
+input {
+    width: 16rem;
+    height: 1.8rem;
+}
+
+.button {
+    display: grid;
+}
+
+img[alt="avatar"] {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    height: 10rem;
+}
+
+@media screen and (min-width: 60rem) {
+    form {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+    input {
+        width: 20rem;
+    }
+    textarea {
+        width: 20rem;
+    }
+
+    .social-media {
+        margin-top: 20rem;
+    }
+}

@@ -1,0 +1,9 @@
+<label for="acctType">
+    Account Type
+</label>
+<select id="acctType" onchange="handleLoadAccounts(this.value)">
+    <option value="All">All</option>
+    <option value="Saving">Saving</option>
+    <option value="Current">Current</option>
+</select>
+<div id="accounts-table"></div>
